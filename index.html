@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+  </head>
+  <body class = 'container' class = 'solid'>
+    <div class = "#e0e0e0 grey lighten-2" >
+      <H1 class = 'center-align' id = 'header'>Change Calculator</H1>
+      <div class = 'input'>
+        <input type = 'text' id = 'amount-due' placeholder = 'Amount $'> How much is due for the sale?</input>
+        <input type = 'text' id = 'amount-received' placeholder = 'Amount $'> How much has the customer given you?</input>
+      </div>
+      <div class = 'right-align'>
+        <button class = "waves-effect waves-light btn" id = 'calculate-change'> Calculate Change</button>
+      </div>
+      <p id= 'change-amount'></p>
+
+
+      
+      <div class = 'center-align'>
+         
+        <div class="col s12 m2">
+          <h3 class="z-depth-1" id = 'dollars'> Dollars:</h3>
+          <p id = 'dollars-output'></p>
+        </div> 
+        
+        <div class = 'divider'></div>
+        
+        <div class = 'coin'>
+          <div class = 'quarters'>
+          
+            <h3>Quarters:</h3>
+            <p id = 'quarters-output'> </p>
+        
+          </div>
+          <div class = 'dimes'>
+          
+            <h3> Dimes:</h3>
+            <p id = 'dimes-output'></p>
+        
+          </div>
+          <div class = 'nickels'>
+          
+            <h3>Nickels:</h3>
+            <p id = 'nickels-output'></p>
+        
+          </div>
+          <div class = ''>
+          
+            <h3> Pennies:</h3>
+            <p id = 'pennies-output'></p>
+
+          </div>
+       
+        </div>
+      </div>
+    
+    </div>
+  
+  </div>
+    
+
+  </body>
+  <script src = 'main.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>

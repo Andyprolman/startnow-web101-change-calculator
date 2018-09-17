@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#header {
+    font-weight: bold;
+}
+
+.input {
+    border: 1px dotted #999;
+    border-radius: 0;
+    font-weight: bold;
+
+    
+}
+button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coin {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    text-shadow: 3px 3px grey;
+}
+
+#dollars {
+    text-shadow: 3px 3px grey;
+}
+
+body {
+    background-color: gray;
+    border-style: solid;
+    border-width: 10px;
+
+}
+.z-depth-1 {
+    background-color: #e3f2fd blue lighten-5;
+    
+    
+}
+
+p {
+    font-size: 25pt;
+    color: black;
+}
